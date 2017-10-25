@@ -3,7 +3,6 @@
 
 文件只有一个（ObjectCode.ts），可以向下面这样测试：
 
-			//网络数据测试
 			let obj: Object = {
 				a: -129,
 				c: 890.5,

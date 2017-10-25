@@ -21,7 +21,8 @@
 				j: "大家好",
 				k: null
 			};
-      
-      
-			let byte: egret.ByteArray = Game.ObjectCode.encode(obj); 
-			let dobj: Object = Game.ObjectCode.decode(byte); 
+      
+//编码
+let byte: egret.ByteArray = Game.ObjectCode.encode(obj); 
+//解码
+let dobj: Object = Game.ObjectCode.decode(byte); 
